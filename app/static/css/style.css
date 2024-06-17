@@ -1,0 +1,114 @@
+body{
+    background: #212529;
+}
+
+#regTarea{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+}
+
+#regTarea input,
+#regTarea select{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 15px;
+    border: #ADB5BD solid 1px;
+    color: #212529;
+    font-size: 16px;
+    margin-bottom: 3%;
+    padding: 1% 2%;
+    width: 30%;
+}
+
+#regTarea select{
+    width: 34%;
+}
+
+#regTarea label{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #CED4DA;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.formsTitle{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #CED4DA;
+}
+
+.divBtns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btns{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    border-radius: 10px;
+    border: solid 1px #ADB5BD;
+    width: fit-content;
+    padding: 5% 10%;
+    margin: 10% 20%;
+}
+
+#regUsers{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+}
+
+#regUsers input,
+#regUsers select{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 15px;
+    border: #ADB5BD solid 1px;
+    color: #212529;
+    font-size: 16px;
+    margin-bottom: 2%;
+    padding: 0.5% 2%;
+    width: 26%;
+}
+
+#regUsers select{
+    width: 30%;
+}
+
+#regUsers label{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #CED4DA;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.upper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.forget{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    border-radius: 10px;
+    border: solid 1px #ADB5BD;
+    width: fit-content;
+    padding: 2% 10%;
+    margin: 10% 20%;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+}
